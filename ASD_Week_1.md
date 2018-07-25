@@ -73,3 +73,26 @@
 ## Project Planning Support Plans
 1. Human Resource Plan
   - Name key individuals and organizations: describe roles and responsibilities
+  - Describe the number and type of people needed
+    - Start dates, estimated duration and how to get them
+2. Communications and Management Plan
+  - Who needs to be kept informed about the project?
+  - How they will receive the information?
+    - Weekly review meeting
+    - Progress reports
+    - Revised schedule
+3. Risk Management Plan - see later
+  - identify as many risks as possible
+  - be prepared if something bad happens
+
+## The Range of Management Activities
+- 4 P's
+  - People:
+    - Managers, Project Managers, Team Leaders, Software Team, Customers, End Users
+  - Product:
+    - Scope and decomposition
+  - Process
+    - SDLC: Initiation -> Analysis -> Design -> Construct -> Test -> Implement
+    - UP: Inception -> Elaboration -> Construction -> Transition -> Production
+  - Project
+    - Size estimation; scheduling; risk management; tracking
