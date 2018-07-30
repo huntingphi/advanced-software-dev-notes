@@ -214,13 +214,50 @@ Deliverable: *Measurable and tangible outcome of the project*
 "A deliverable is a measurable and tangible outcome of the project. They are developed by project team members in alignment with the goals of the project"
 
 Milestones: *The checkpoints throughout the life of the project. They identify when one or multiple groups or activities..*
-"**Milestones** on the other hand are checkpoints throughout the life of the project. They identify when one or multiple group activities have been completed thus implying that a notable point has been reached in the project"
+"**Milestones** on the other hand are checkpoints throughout the life of the project. They identify when one or multiple group activities have been completed thus implying that a notable point has been reached in the project  "
 
 ### Why Software Metrics?
-To plan and..
+To plan and manage a software development project.
+
+The resources required for each of its constituent activities need to be estimated. These estimations are subjective perceptions of the activity and based on measurements of size and complexity of the activity itself and the artifact produced.
+
+Software metrics measure some aspect of software development, such as:
+- project level: cost and duration
+- application level: size or complexity
 
 ### Software Metrics Characteristics
+**Process Metrics**
+Process metrics measure some aspect of the development process, such as:
+- Project cost to date
+- Amount of time spent on the project to date
 
+The above aspects are constantly changing
+
+**Product Metrics**
+Product metrics measure some aspect of the software product, such as:
+- Analysis models: Number of classes in analysis class diagram
+- test plans
+- program code
+
+**Result Metrics**
+Measure outcomes such as current cost of project, and also known as *control metrics* and are used to determine how management control should be exercised.
+
+Measurement of the current level of progress in the project is used to decide whether action is necessary to bring the project back onto schedule.
+
+**Predictor Metrics**
+Quantify estimates for project resource requirements, such as class size.
+
+A crude measure could be a simple count of attributes and operations. Its a predictor because it can be used to predict the time it will take to produce code.
+
+Also a measure of some other aspect of software product that is used to predict another aspect of the product or project progress.
+
+Could possibly predict that the system will be difficult to maintain, or low levels of reuse.
+
+The design could then change to improve the system
+
+### Are Software Metrics Worth Anything?
+
+Useful for prediction and resource estimation
 
 ## Scheduling
 
