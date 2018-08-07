@@ -9,7 +9,7 @@
 
 - Systems development is a complex activity that requires careful project management
 
-- Interdependencies between the artefacts of software development mean that production needs to be planned, monitored and coordinated so that development is effective efficient and on time
+- Interdependencies between the artifacts of software development mean that production needs to be planned, monitored and coordinated so that development is effective efficient and on time
 - A software development project may involve many developers, some with specialized skills who will be required at different times.
 - Activities must follow a particular sequence
 
@@ -27,7 +27,7 @@
 - The content that is presented to users as a consequence of using the software
 - The performance, constraints, interfaces and reliability that bound the system
 
-*Side note: Agent based modelling: Lots of agents in the system, what is the aggregate result of the agents interacting in the system*
+*Side note: Agent based modeling: Lots of agents in the system, what is the aggregate result of the agents interacting in the system*
 
 ### Defining Scope
 - Two techniques:
@@ -51,7 +51,7 @@
   - Users of the project outputs
   - Project manager and project team
 - Find true needs that create real benefits and prioritize them
-- Create measurable (goals SMART accronym)
+- Create measurable (goals SMART acronym)
 
 ### Project Planning Deliverables
 - Deliverables are a list of items that have to be delivered to meet the goals
@@ -117,7 +117,7 @@ Range of duties in a small project:
 1. **Course Developer**: Preparation and coordination of training
 2. **Database Designer**: Essential to the process, mainly due to the specificity of its knowledge
 3. **Implementer**: Programs sub-systems and components that support the desired functionalities
-4. **Integrator** (lead programmer): Responsible for maintaining the implementers' awareness of the project context, for identifying the tasks to be undertaken and for appointing the person responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform the client when each feature is expected to be available
+4. **Integrator** (lead programmer): Responsible for maintaining the implementer's awareness of the project context, for identifying the tasks to be undertaken and for appointing the person responsible for the initial definition of the critical dates of the project and for developing a plan for the integration of the sub-systems, to allow the project manager to inform the client when each feature is expected to be available
 5. **Process Engineer**: Mainly concerned with the management of the development process, its adaption to the organisational context and monitoring its implementation, in order to identify and implement possible process improvements
 6. **Project Manager**: Assume a global overview of the project through a detailed interaction with the internal and external participants. Must create the conditions for the project to achieve success, by ensuring timeliness and fulfillment of all commitments. Requires: basic knowledge in management; knowledge about the clients business domain; project management methodologies and negotiation skills.
 7. **Project Reviewer**: This role cannot be considered critical, however, due to responsibilities related to the verification and approval of several artifacts produced by other participants, and possible conflict of interests, this person cannot have another role within the project
@@ -135,7 +135,7 @@ Information from candidates about their background and experience (resume or CV)
 
 Information from interviewing candidates:
 - Mainly judge communication and social skills
-- Subjective judgement, and therefore not reliable
+- Subjective judgment, and therefore not reliable
 - Can also ask to perform specific exercises
 
 References and recommendations from people who have worked with them:
@@ -171,7 +171,7 @@ I - Introvert: prefer to direct energy to deal with ideas, information, explanat
 
 ### Meyers & Briggs: Lifestyle
 **How do you prefer to organise your life?**
-J - Judging: prefer life to be planned, stable and organised (Not Judgemental)
+J - Judging: prefer life to be planned, stable and organised (Not Judgmental)
 P - Perception: prefer to go with the flow, to maintain flexibility and respond to things as they arise.
 
 ### Management and Team Success
@@ -183,7 +183,7 @@ Individual success depends on:
 - Experience and training with similar applications, development tools, programming languages
 Team success depends on:
 - **Ability to communicate** and express ideas in the team
-  - be heard or be hearded
+  - be heard or be herded
 - Group interaction is a key determinant of group performance
 Management skills
 - Limited flexibility in group composition: do the best with people available
@@ -266,7 +266,7 @@ The validity of predictor metrics are based on 3 assumptions:
 
 Size metrics can be used to estimate the resource requirement for a project provided that appropriate historical data is available to derive and validate the relationship.
 
-Generally software devs don't think metrics are important and are more focused on the delivery of the product on time. Metrics can also be used to monitor the performance of developed, which is a cause of concern to developers and could result in ethical and management issues.
+Generally software developers don't think metrics are important and are more focused on the delivery of the product on time. Metrics can also be used to monitor the performance of developed, which is a cause of concern to developers and could result in ethical and management issues.
 
 ### Metrics for Object-Oriented Development
 
@@ -356,7 +356,7 @@ Horizontal Bar Charts:
 Captures:
 - Task completion
 - Simple dependencies
-- Milestones and Deliverables
+- Milestones and deliverables
 
 Cant handle complex task dependencies
 Supported by automated scheduling tools
@@ -408,7 +408,7 @@ Sort risk by a combination of:
 
 **Monitoring** - What factors can we track that will enable us to determine if the risk is becoming more or less likely
 
-**Management** - What contingency plans do we have if the risk vecomes a reality
+**Management** - What contingency plans do we have if the risk becomes a reality
 
 <!-- See examples of risk slides -->
 
