@@ -257,14 +257,57 @@ The design could then change to improve the system
 
 ### Are Software Metrics Worth Anything?
 
-Useful for prediction and resource estimation
+Useful for prediction and resource estimation but is otherwise limited in use.
+
+The validity of predictor metrics are based on 3 assumptions:
+1. You can measure something useful
+2. The measure predicts something worthwhile
+3. The relationship (assuming its the relationship between the measurement and prediction) is real and can be expressed in a model or formula
+
+Size metrics can be used to estimate the resource requirement for a project provided that appropriate historical data is available to derive and validate the relationship.
+
+Generally software devs don't think metrics are important and are more focused on the delivery of the product on time. Metrics can also be used to monitor the performance of developed, which is a cause of concern to developers and could result in ethical and management issues.
+
+### Metrics for Object-Oriented Development
+
+The ability of a packet to absorb change is partly dependent on the ratio of abstract classes to all classes
+
+0 => Package has only concrete classes and therefore is difficult to change
+1 => Package has no concrete classes and is easy to change
+
+<!-- TODO Watch lecture -->
+Application size:
+- The number of use cases
+- The number of domain classes
+- Multiplying factors that reflect the complexity of the user interface
+
+Class size
+- The number of attributes
+- The number of operations
+- The size of operations
 
 ## Scheduling
 
 ### Project Scheduling
 
-Minimize task dependencies. This allows things to happen in parallel and therefore there isn't a delay waiting for one task before another can be started
+Split the work in a project into separate tasks:
+- **Minimize task dependencies**. This allows things to happen in parallel and therefore there isn't a delay waiting for one task before another can be started
 
+Estimate the calendar time needed to complete each task
+- Split up task if it'll take much longer than 1 week (never allow it to be more than 2 months)
+- Make tasks concurrent to make optimal use of workforce
+
+Estimate the effort required
+- Who will work on the tasks
+- Resources needed to complete each task
+
+Project scheduling mostly needs **project manager's intuition and experience**
+
+### Project Scheduling Process
+
+<!-- TODO Add image -->
+
+<!-- TODO Where does this fit in? -->
 (The below is not in lectures)
 We need to look at:
 1. Who are the people in the team
@@ -272,4 +315,113 @@ We need to look at:
 3. How do these relate with each other
 Map it out with network analysis
 
+### Critical Path or Network Analysis
+
+- Related to PERT charts
+- Minimum overall duration of the project according to the estimates depends on the **critical paths**
+- Any delay of a task on the critical path delays the whole project
+
+<!-- TODO Finish this from lectures -->
 Critical path - The line of ...
+
+### What is Network Analysis
+
+**Project tasks**
+Are often interdependent; But need to be done in parallel for teamwork to be effective
+
+**Task networks are graphical depictions of task dependence**
+
+**Network analysis is a project planning method**
+- It determines the critical path
+- It establishes *most likely* time estimates
+- It calculates boundaries to stop project slippage
+
+#### Terminology
+
+| Term | Meaning     |
+| :------------- | :------------- |
+| Earliest Start/Finish       | Earliest a task can begin/end if all preceding tasks are completed in the shortest time       |
+| Latest Start/Finish | Latest a task can begin/end without delaying the minimum project completion time |
+| Critical Path   | Chain that determines overall project duration; There can be more than one critical path   |
+| Slack (Float) | The amount of surplus time or leeway allowed while still maintaining the critical path |
+
+<!-- TODO See example: Tasks for a multiuser 3D meeting place; See Network Analysis slides after example -->
+
+### Gantt Charts
+
+Horizontal Bar Charts:
+- Horizontal axis represents project time span
+- Vertical axis represents project tasks
+
+Captures:
+- Task completion
+- Simple dependencies
+- Milestones and Deliverables
+
+Cant handle complex task dependencies
+Supported by automated scheduling tools
+
+## Risk
+
+### Managing Risks
+
+**Why**
+Projects have a high level of uncertainty; Better to anticipate problems in advance
+
+**How**
+1. Identify specific risks to the project
+2. Analyze the risks
+3. Rank them in a particular order
+4. Plan for monitoring, mitigation and management
+5. Revisit continually during project
+
+### Boehm's top ten risk items +2
+
+Being blindsided by the competition <!-- TODO: What? -->
+Outside interruptions
+
+1. Personal shortfalls - Failure to recruit or retain key staff
+2. Unrealistic schedules and budgets
+3. Developing the wrong functions
+4. Developing the wrong UI's
+5. Gold-plating (Fixating on extras instead of focusing on improving the core functionality)
+6. Continuing stream of requirements changes
+7. Shortfalls in externally-performed tasks
+8. Shortfalls in externally-furnished components
+9. Real-time performance shortfalls
+10. Straining computer science capabilities
+
+### Risk Matrix
+
+Sort risk by a combination of:
+- Probability (high, medium, low)
+- Impact: Catastrophic (project failure), critical (massive delay), marginal, negligible
+
+<!-- TODO See image below the above list -->
+
+### 3 M's
+
+**Mitigation** - How can we avoid or reduce the risk
+1. Avoid the risk: change requirements
+2. Transfer the risk: get insurance
+3. Assume the risk and accept and control it
+
+**Monitoring** - What factors can we track that will enable us to determine if the risk is becoming more or less likely
+
+**Management** - What contingency plans do we have if the risk vecomes a reality
+
+<!-- See examples of risk slides -->
+
+## Conclusion
+
+### Planning vs Management
+
+Planning
+- Pre- and post-
+- Network analysis, resourcing, risks, schedule
+
+Management
+- During
+- Controlling resources and timescales
+
+Tips on project control: Remember to update planning documents. Show progress in Gantt Chart, Reassess risks.
