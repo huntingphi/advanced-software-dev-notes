@@ -289,7 +289,7 @@ Early reduction of risk technical requirements, objectives, usability etc
 Early visible progress
 Early feedback - User engagement and adaption; better meets the real needs
 Managed complexity: No very long and complex steps
-Get a robust architecture - architecturecan be assessed and improved early
+Get a robust architecture - architecture can be assessed and improved early
 Handle evolving requirements - Users provide feedback to operational systems; Responding to feedback is an incremental change
 Allow for changes: System can adapt to problems
 Learn and apply lessons within the development process
